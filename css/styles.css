@@ -36,11 +36,14 @@ ul {
     color: var(--color-brand);
 }
 
+.nav-item {
+    line-height: 1.5em;
+}
+
 .nav-link {
     color: var(--color-brand);
     font-size: 16px;
     font-weight: 500;
-    line-height: 1.5em;
     letter-spacing: 0.02em;
 }
 
@@ -90,12 +93,12 @@ ul {
     cursor: pointer;
 }
 
-button:hover {
+.button:hover {
     color: var(--color-primary);
     background-color: var(--color-pressed-stele);
 }
 
-button:active {
+.button:active {
     background-color: var(--color-pressed-stele);
 }
 
@@ -140,6 +143,10 @@ button:active {
     text-transform: capitalize;
 }
 
+.section-item {
+    background-color: var(--color-primary);
+}
+
 .team-name {
     color: var(--color-main);
     font-size: 20px;
@@ -160,7 +167,7 @@ button:active {
     color: var(--color-brand);
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.2em;
+    line-height: 1.5em;
     letter-spacing: 0.4px;
 }
 
