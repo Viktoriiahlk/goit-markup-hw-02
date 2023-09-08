@@ -123,7 +123,6 @@ button:hover {
 
 .team-name {
     color: var(--color-main);
-    text-align: center;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2em;
@@ -148,7 +147,7 @@ button:hover {
     font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16em;
+    line-height: 0.03em;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
