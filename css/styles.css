@@ -44,12 +44,20 @@ ul {
     letter-spacing: 0.02em;
 }
 
+.nav-link:active {
+    color: var(--color-pressed-stele);
+}
+
 .address-header {
     color: var(--color-main);
     font-size: 16px;
     font-weight: 400;
     line-height: 1.15em;
     letter-spacing: 0.03em;
+}
+
+.address-header:active {
+    color: var(--color-pressed-stele);
 }
 
 .hero-section {
