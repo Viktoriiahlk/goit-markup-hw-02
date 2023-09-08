@@ -44,13 +44,11 @@ ul {
     letter-spacing: 0.02em;
 }
 
-.nav-link:hover {
-    color: var(--color-pressed-stele)
-}
-
-.nav-link:active {
+.nav-link:hover,
+.nav-link:focus {
     color: var(--color-pressed-stele);
 }
+
 
 .address {
     font-style: normal;
@@ -162,7 +160,7 @@ button:active {
     color: var(--color-brand);
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.5em;
+    line-height: 1.2em;
     letter-spacing: 0.4px;
 }
 
