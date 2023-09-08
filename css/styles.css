@@ -37,6 +37,7 @@ ul {
 }
 
 .nav-link {
+    color: var(--color-brand);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.15em;
