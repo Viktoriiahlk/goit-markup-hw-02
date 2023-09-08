@@ -10,7 +10,8 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    color: var(--color-main) background-color: var(--color-primary);
+    color: var(--color-main);
+    background-color: var(--color-primary);
 }
 
 a {
@@ -43,8 +44,16 @@ ul {
     letter-spacing: 0.02em;
 }
 
+.nav-link:hover {
+    color: var(--color-pressed-stele)
+}
+
 .nav-link:active {
     color: var(--color-pressed-stele);
+}
+
+.address {
+    font-style: normal;
 }
 
 .address-header {
@@ -53,7 +62,7 @@ ul {
     font-style: normal;
     font-weight: 400;
     line-height: 1.15em;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.02em;
 }
 
 .address-header:active {
@@ -88,18 +97,16 @@ button:hover {
     background-color: var(--color-pressed-stele);
 }
 
+button:active {
+    background-color: var(--color-pressed-stele);
+}
+
 .advantages-section {
     background-color: var(--color-primary);
     color: var(--color-brand);
 }
 
 .hidden-visually {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -126,6 +133,7 @@ button:hover {
 }
 
 .section-title {
+    color: var(--color-brand);
     font-size: 36px;
     font-weight: 700;
     text-align: center;
@@ -154,7 +162,7 @@ button:hover {
     color: var(--color-brand);
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.2em;
+    line-height: 1.5em;
     letter-spacing: 0.4px;
 }
 
