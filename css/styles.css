@@ -2,7 +2,6 @@
     --color-brand: #2E2F42;
     --color-background: #E7E9FC;
     --color--components: #4D5AE5;
-    --color--header: #434455;
     --color-main: #434455;
     --color-primary: #fff;
     --color-bg-section: #F4F4FD;
@@ -12,6 +11,7 @@
 body {
     font-family: "Roboto", sans-serif;
     color: var(--color-primary);
+    background-color: var(--color-primary);
 }
 
 a {
@@ -37,7 +37,6 @@ ul {
 }
 
 .nav-link {
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.15em;
@@ -46,7 +45,6 @@ ul {
 
 .address-header {
     color: var(--color-main);
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.15em;
@@ -60,7 +58,6 @@ ul {
 .hero-title {
     color: var(--color-primary);
     text-align: center;
-    font-family: Roboto, sans-serif;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07em;
@@ -79,4 +76,63 @@ button:hover {
     background-color: var(--color-pressed-stele);
 }
 
-.advantages-title {}
+.advantages-section {
+    background-color: var(--color-primary);
+    color: var(--color-brand);
+}
+
+.hidden-visually {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.advantages-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2em;
+    letter-spacing: 0.02em;
+}
+
+.advantage-text {
+    color: var(--color-main);
+    font-weight: 400;
+    line-height: 1.5em;
+    letter-spacing: 0.32px;
+}
+
+.section-title {
+    background-color: var(--color-bg-section);
+    color: var(--color-brand);
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11em;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.team-name {
+    color: var(--color-main) text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2em;
+    letter-spacing: 0.02em;
+}
+
+.team-text {
+    color: var(--color-main);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+}
