@@ -10,7 +10,7 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    color: var(--color-primary);
+    color: var(--color-brand);
     background-color: var(--color-primary);
 }
 
@@ -108,7 +108,7 @@ button:hover {
     letter-spacing: 0.32px;
 }
 
-.section-title {
+.section-team {
     background-color: var(--color-bg-section);
     color: var(--color-brand);
 }
@@ -122,7 +122,8 @@ button:hover {
 }
 
 .team-name {
-    color: var(--color-main) text-align: center;
+    color: var(--color-main);
+    text-align: center;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2em;
@@ -131,6 +132,28 @@ button:hover {
 
 .team-text {
     color: var(--color-main);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+}
+
+.footer {
+    background-color: var(--color-brand);
+    color: var(--color-bg-section);
+}
+
+.logo-footer {
+    color: var(--CLOUD, #F4F4FD);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16em;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.slogan {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5em;
