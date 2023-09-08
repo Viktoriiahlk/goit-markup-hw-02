@@ -10,8 +10,7 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    color: var(--color-brand);
-    background-color: var(--color-primary);
+    color: var(--color-main) background-color: var(--color-primary);
 }
 
 a {
@@ -23,24 +22,24 @@ ul {
 }
 
 .logo {
-    color: var(--color-brand);
+    color: var(--color--components);
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16em;
+    line-height: 1.17em;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .logo-accent {
-    color: var(--color--components);
+    color: var(--color-brand);
 }
 
 .nav-link {
     color: var(--color-brand);
     font-size: 16px;
     font-weight: 500;
-    line-height: 1.15em;
+    line-height: 1.5em;
     letter-spacing: 0.02em;
 }
 
@@ -51,6 +50,7 @@ ul {
 .address-header {
     color: var(--color-main);
     font-size: 16px;
+    font-style: normal;
     font-weight: 400;
     line-height: 1.15em;
     letter-spacing: 0.03em;
@@ -76,6 +76,9 @@ ul {
 .button {
     color: var(--color-primary);
     background-color: var(--color--components);
+    font-weight: 500;
+    line-height: 1.5em;
+    letter-spacing: 0.04em;
     border: none;
     cursor: pointer;
 }
@@ -125,6 +128,7 @@ button:hover {
 .section-title {
     font-size: 36px;
     font-weight: 700;
+    text-align: center;
     line-height: 1.11em;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -146,19 +150,39 @@ button:hover {
     letter-spacing: 0.02em;
 }
 
+.portfolio-title {
+    color: var(--color-brand);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2em;
+    letter-spacing: 0.4px;
+}
+
+.portfolio-text {
+    color: var(--color-main);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.15em;
+    letter-spacing: 0.32px;
+}
+
 .footer {
     background-color: var(--color-brand);
     color: var(--color-bg-section);
 }
 
 .logo-footer {
-    color: var(--CLOUD, #F4F4FD);
-    font-family: Raleway;
+    color: var(--color--components);
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 0.03em;
+    line-height: 1.17em;
     letter-spacing: 0.54px;
     text-transform: uppercase;
+}
+
+.logo-footer-accent {
+    color: var(--color-bg-section);
 }
 
 .slogan {
