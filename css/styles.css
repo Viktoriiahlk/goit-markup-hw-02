@@ -22,6 +22,8 @@ ul {
     list-style-type: none;
 }
 
+/* Header */
+
 .logo {
     color: var(--color--components);
     font-family: Raleway, sans-serif;
@@ -36,12 +38,9 @@ ul {
     color: var(--color-brand);
 }
 
-.nav-item {
-    line-height: 1.5em;
-}
-
 .nav-link {
     color: var(--color-brand);
+    line-height: 1.5em;
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 0.02em;
@@ -49,7 +48,7 @@ ul {
 
 .nav-link:hover,
 .nav-link:focus {
-    color: var(--color-pressed-stele);
+    color: #404BBF;
 }
 
 
@@ -70,6 +69,7 @@ ul {
     color: var(--color-pressed-stele);
 }
 
+/* Hero section */
 .hero-section {
     background-color: var(--color-brand);
 }
@@ -98,9 +98,11 @@ ul {
     background-color: var(--color-pressed-stele);
 }
 
-.button:active {
+.button:focus {
     background-color: var(--color-pressed-stele);
 }
+
+/* Advantage section */
 
 .advantages-section {
     background-color: var(--color-primary);
@@ -127,6 +129,8 @@ ul {
     line-height: 1.5em;
     letter-spacing: 0.32px;
 }
+
+/* Team section */
 
 .section-team {
     background-color: var(--color-bg-section);
@@ -163,11 +167,13 @@ ul {
     letter-spacing: 0.02em;
 }
 
+/* Portfolio section */
+
 .portfolio-title {
     color: var(--color-brand);
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.5em;
+    line-height: 1.5;
     letter-spacing: 0.4px;
 }
 
@@ -175,9 +181,11 @@ ul {
     color: var(--color-main);
     font-size: 16px;
     font-weight: 400;
-    line-height: 1.15em;
+    line-height: 1.2;
     letter-spacing: 0.32px;
 }
+
+/* Footer */
 
 .footer {
     background-color: var(--color-brand);
