@@ -47,11 +47,11 @@ ul {
 }
 
 .nav-link:hover {
-    color: #404BBF;
+    color: var(--color-pressed-stele);
 }
 
 .nav-link:focus {
-    color: #404BBF;
+    color: var(--color-pressed-stele);
 }
 
 
@@ -64,11 +64,15 @@ ul {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.15em;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.address-header:active {
+.address-header:focus {
+    color: var(--color-pressed-stele);
+}
+
+.address-header:hover {
     color: var(--color-pressed-stele);
 }
 
@@ -155,7 +159,7 @@ ul {
 }
 
 .team-name {
-    color: var(--color-main);
+    color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2em;
@@ -184,7 +188,7 @@ ul {
     color: var(--color-main);
     font-size: 16px;
     font-weight: 400;
-    line-height: 1.2;
+    line-height: 1.5;
     letter-spacing: 0.32px;
 }
 
